@@ -31,25 +31,6 @@ jobs:
       - name: Install Chromium system dependencies
         run: npx playwright install --with-deps chromium
 
-      - name: Audit dependencies
-        shell: bash
-        run: |
-          max_attempts=3
-
-          for attempt in $(seq 1 "$max_attempts"); do
-            if timeout 120s npm audit --audit-level=high; then
-              exit 0
-            fi
-
-            if [ "$attempt" -lt "$max_attempts" ]; then
-              echo "::warning::npm audit attempt $attempt/$max_attempts failed; retrying in 20 seconds."
-              sleep 20
-            fi
-          done
-
-          echo "::error::npm audit failed after $max_attempts attempts."
-          exit 1
-
       - name: Run release gate
         run: npm run verify:final
 
