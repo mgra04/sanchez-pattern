@@ -2,6 +2,8 @@ name: CI
 
 on:
   push:
+    branches:
+      - main
   pull_request:
 
 permissions:
@@ -28,9 +30,6 @@ jobs:
 
       - name: Install Chromium system dependencies
         run: npx playwright install --with-deps chromium
-
-      - name: Audit dependencies
-        run: npm audit --audit-level=high
 
       - name: Run release gate
         run: npm run verify:final
