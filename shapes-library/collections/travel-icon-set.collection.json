@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "travel-icon-set",
+  "displayName": "Travel Icon Set",
+  "description": "Eleven travel icons with matching outline and filled variants.",
+  "tags": [
+    "travel",
+    "icons",
+    "outline",
+    "filled"
+  ],
+  "cover": {
+    "category": "base",
+    "familyId": "travel-airplane",
+    "variantId": "form-outline__radius-0"
+  },
+  "members": [
+    {
+      "category": "base",
+      "familyId": "travel-airplane"
+    },
+    {
+      "category": "base",
+      "familyId": "travel-bus"
+    },
+    {
+      "category": "base",
+      "familyId": "travel-cloud-1"
+    },
+    {
+      "category": "base",
+      "familyId": "travel-cloud-2"
+    },
+    {
+      "category": "base",
+      "familyId": "travel-compass"
+    },
+    {
+      "category": "base",
+      "familyId": "travel-image-mountain"
+    },
+    {
+      "category": "base",
+      "familyId": "travel-map"
+    },
+    {
+      "category": "base",
+      "familyId": "travel-pin"
+    },
+    {
+      "category": "base",
+      "familyId": "travel-signpost"
+    },
+    {
+      "category": "base",
+      "familyId": "travel-suitcase"
+    },
+    {
+      "category": "base",
+      "familyId": "travel-sun"
+    }
+  ]
+}

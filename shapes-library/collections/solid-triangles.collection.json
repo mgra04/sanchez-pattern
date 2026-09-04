@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "solid-triangles",
+  "displayName": "Solid Triangles",
+  "description": "Compatible full and half equilateral triangle tiles.",
+  "tags": ["solid", "triangle"],
+  "cover": {
+    "category": "base",
+    "familyId": "solid-triangle-full",
+    "variantId": "form-filled__radius-0"
+  },
+  "members": [
+    { "category": "base", "familyId": "solid-triangle-full" },
+    { "category": "base", "familyId": "solid-triangle-half" }
+  ]
+}

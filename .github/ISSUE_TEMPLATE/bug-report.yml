@@ -1,0 +1,57 @@
+name: Bug report
+description: Report behavior that is broken or inconsistent.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for helping improve Sanchez Pattern Creator. Do not include sensitive data.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the actual behavior and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Choose …
+        2. Set …
+        3. Click …
+    validations:
+      required: true
+  - type: dropdown
+    id: method
+    attributes:
+      label: Pattern method
+      options:
+        - Base
+        - Gradient
+        - Mosaic
+        - Triangle
+        - Shape tools or library
+        - Not method-specific
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and operating system
+      placeholder: Chrome 140 on Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots, exports, or console output
+      description: Attach the smallest non-sensitive evidence that demonstrates the problem.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for the same problem.
+          required: true

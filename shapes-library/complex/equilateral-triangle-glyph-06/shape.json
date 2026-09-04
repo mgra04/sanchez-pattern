@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Glyph 06",
+  "defaultVariantId": "profile-a",
+  "frameKind": "equilateral-full",
+  "frame": {
+    "width": 24,
+    "height": 20.7846096908
+  },
+  "viewBox": {
+    "minX": 0,
+    "minY": 0,
+    "width": 24,
+    "height": 20.7846096908
+  },
+  "tile": {
+    "canonicalOrientation": "up",
+    "profileId": "equilateral-24",
+    "role": "triangle-full",
+    "setDisplayName": "Equilateral Triangle Glyphs",
+    "setId": "equilateral-triangle-glyphs",
+    "sideLength": 24
+  },
+  "variants": [
+    {
+      "axis": "form",
+      "axisValue": "glyph",
+      "file": "g06-a.svg",
+      "id": "profile-a",
+      "opacityUnits": {
+        "count": 2,
+        "mode": "separate-elements"
+      },
+      "profileId": "a",
+      "radiusPx": 0
+    },
+    {
+      "axis": "form",
+      "axisValue": "glyph",
+      "file": "g06-b.svg",
+      "id": "profile-b",
+      "opacityUnits": {
+        "count": 2,
+        "mode": "separate-elements"
+      },
+      "profileId": "b",
+      "radiusPx": 0
+    },
+    {
+      "axis": "form",
+      "axisValue": "glyph",
+      "file": "g06-c.svg",
+      "id": "profile-c",
+      "opacityUnits": {
+        "count": 2,
+        "mode": "separate-elements"
+      },
+      "profileId": "c",
+      "radiusPx": 0
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 2,
+  "id": "equilateral-triangle-glyphs",
+  "displayName": "Equilateral Triangle Glyphs",
+  "description": "Fifteen equilateral-triangle glyphs in three shared thickness and gap profiles.",
+  "tags": [
+    "triangle",
+    "glyph",
+    "multi-part"
+  ],
+  "parameterDefinitions": [
+    {
+      "id": "thicknesses",
+      "label": "Thicknesses",
+      "kind": "number-list",
+      "unit": "px"
+    },
+    {
+      "id": "main-inner-gap",
+      "label": "Main–inner gap",
+      "kind": "number",
+      "unit": "px"
+    }
+  ],
+  "variantProfiles": [
+    {
+      "id": "a",
+      "label": "1/2 · Gap 2",
+      "parameters": {
+        "thicknesses": [
+          1,
+          2
+        ],
+        "main-inner-gap": 2
+      }
+    },
+    {
+      "id": "b",
+      "label": "1.5/2 · Gap 2",
+      "parameters": {
+        "thicknesses": [
+          1.5,
+          2
+        ],
+        "main-inner-gap": 2
+      }
+    },
+    {
+      "id": "c",
+      "label": "1.5/2 · Gap 1.5",
+      "parameters": {
+        "thicknesses": [
+          1.5,
+          2
+        ],
+        "main-inner-gap": 1.5
+      }
+    }
+  ],
+  "profileCoverage": "complete",
+  "cover": {
+    "category": "complex",
+    "familyId": "equilateral-triangle-glyph-01",
+    "variantId": "profile-a"
+  },
+  "members": [
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-01"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-02"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-03"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-04"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-05"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-06"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-07"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-08"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-09"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-10"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-11"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-12"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-13"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-14"
+    },
+    {
+      "category": "complex",
+      "familyId": "equilateral-triangle-glyph-15"
+    }
+  ]
+}

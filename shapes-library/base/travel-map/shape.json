@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Map",
+  "defaultVariantId": "form-outline__radius-0",
+  "frameKind": "square",
+  "frame": {
+    "width": 24,
+    "height": 24
+  },
+  "viewBox": {
+    "minX": 0,
+    "minY": 0,
+    "width": 24,
+    "height": 24
+  },
+  "variants": [
+    {
+      "axis": "form",
+      "axisValue": "outline",
+      "file": "form-outline__radius-0.svg",
+      "id": "form-outline__radius-0",
+      "opacityUnits": {
+        "count": 1,
+        "mode": "whole-svg"
+      },
+      "radiusPx": 0
+    },
+    {
+      "axis": "form",
+      "axisValue": "filled",
+      "file": "form-filled__radius-0.svg",
+      "id": "form-filled__radius-0",
+      "opacityUnits": {
+        "count": 1,
+        "mode": "whole-svg"
+      },
+      "radiusPx": 0
+    }
+  ]
+}

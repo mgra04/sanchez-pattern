@@ -1,0 +1,14 @@
+{
+  "displayName": "Solid Triangle Full",
+  "frameKind": "equilateral-full",
+  "frame": { "width": 24, "height": 20.7846096908 },
+  "viewBox": { "minX": 0, "minY": 0, "width": 24, "height": 20.7846096908 },
+  "tile": {
+    "canonicalOrientation": "up",
+    "profileId": "equilateral-24",
+    "role": "triangle-full",
+    "setDisplayName": "Solid Triangles",
+    "setId": "solid-triangles",
+    "sideLength": 24
+  }
+}

@@ -1,0 +1,41 @@
+name: New shape or collection
+description: Propose repository-owned SVG shapes or a collection.
+title: "[Shape]: "
+labels: [shapes]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Shape or collection
+      description: Describe the family, variants, frame type, and intended pattern methods.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category
+      options:
+        - Base
+        - Complex
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: metadata
+    attributes:
+      label: Variants and metadata
+      description: List thickness, radius, form, profiles, opacity units, or collection parameters if relevant.
+  - type: textarea
+    id: source
+    attributes:
+      label: Source and license
+      description: State who created the artwork and why it may be redistributed under the project license.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Contribution rights
+      options:
+        - label: I created these assets or have permission to redistribute them under the project license.
+          required: true

@@ -1,0 +1,38 @@
+name: New pattern method
+description: Propose a new generation workflow.
+title: "[Pattern method]: "
+labels: [enhancement, pattern-method]
+body:
+  - type: textarea
+    id: result
+    attributes:
+      label: Intended result
+      description: Explain the visual outcome and why existing methods cannot produce it.
+    validations:
+      required: true
+  - type: textarea
+    id: model
+    attributes:
+      label: Generation model
+      description: Describe geometry, compatible frame types, ordering, randomness, and deterministic seed behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: controls
+    attributes:
+      label: Controls and validation
+      description: List proposed settings, defaults, limits, and error states.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples
+      description: Attach redistributable diagrams or describe representative outputs.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I read the adding-pattern-method guide and searched existing proposals.
+          required: true
