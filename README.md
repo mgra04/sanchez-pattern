@@ -4,6 +4,10 @@ Sanchez Pattern is a local-first web app for building deterministic SVG patterns
 
 Created by **Nick Sanchez - Mikołaj Grabowski**. Built from the **Toolcraft** starter and runtime by **Pixel Point**. See [NOTICE.md](NOTICE.md) for attribution details.
 
+## Case study
+
+Explore the [design case study](docs/case-study.md) to learn why I created Sanchez Pattern, how I structured its shape library and four generation methods, and how the resulting patterns can be used in interface concepts.
+
 ## Examples
 
 ### Pattern examples
